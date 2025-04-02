@@ -16,10 +16,10 @@
     <link rel="icon" type="image/ico" href="portfolio-website.ico">
 
     <!--css style sheets-->
-    <!--    <link rel="stylesheet" href="styles/style.css">-->
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="assets/lib/normalize.css">
     <link rel="stylesheet" href="assets/lib/fontawesome-free-6.7.2-web/css/all.min.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet">
 
 
 </head>
@@ -33,20 +33,26 @@
         <h1>Buddhika Fernando</h1>
     </div>
 
-    <!--navigation link-->
-    <nav id="nav-links">
-        <ul>
-            <li ><a href="#Hero" class="link">Home</a></li>
-            <li><a href="#About" class="link">About</a></li>
-            <li><a href="#Skills" class="link">Skills</a></li>
-            <li><a href="#Education" class="link">Education</a></li>
-            <li><a href="#Projects" class="link">Projects</a></li>
-            <li><a href="#Assignments" class="link">Assignments</a></li>
-            <li><a href="#Contact" class="link">Contact</a></li>
-        </ul>
-    </nav>
+    <div id="side-bar">
+        <!--navigation link-->
+        <nav id="nav-links">
+            <ul>
+                <li ><a href="#Hero" class="link">Home</a></li>
+                <li><a href="#About" class="link">About</a></li>
+                <li><a href="#Skills" class="link">Skills</a></li>
+                <li><a href="#Education" class="link">Education</a></li>
+                <li><a href="#Projects" class="link">Projects</a></li>
+                <li><a href="#Assignments" class="link">Assignments</a></li>
+                <li><a href="#Contact" class="link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
-    <button><i class="fa-solid fa-bars fa-flip-horizontal" style="color: #ffffff;"></i></button>
+    <button id="menu-button">
+        <i class="fa-solid fa-bars fa-flip-horizontal" style="color: cornflowerblue; height: 25px; width: 30px"></i>
+    </button>
+
+
 
 </header>
 
@@ -79,7 +85,7 @@
             </aside>
         </div>
         <figure id="hero-image">
-            <img src="assets/images/profile.png" alt="Profile Picture">
+            <img src="assets/images/human.jpg" alt="Profile Picture">
         </figure>
     </section>
 
@@ -444,7 +450,6 @@
     </aside>
     <p>&copy; 2025 Buddhika Fernando | All Rights Reserved</p>
 </footer>
-
 
 
 
