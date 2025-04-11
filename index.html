@@ -48,9 +48,7 @@
         </nav>
     </div>
 
-    <button id="menu-button">
-        <i class="fa-solid fa-bars fa-flip-horizontal" style="color: cornflowerblue; height: 25px; width: 30px"></i>
-    </button>
+    <i id="nav-btn" class="fa-solid fa-bars fa-flip-horizontal" style="color: cornflowerblue; height: 25px; width: 30px"></i>
 
 
 
@@ -84,9 +82,8 @@
                 <a href="https://t.me/Alokafernando"><i class="fab fa-telegram"></i></a>
             </aside>
         </div>
-        <figure id="hero-image">
-            <img src="assets/images/human.jpg" alt="Profile Picture">
-        </figure>
+        <img class="hero-img" src="assets/images/human.jpg" alt="Profile Picture">
+
     </section>
 
     <!--about-->
@@ -95,40 +92,40 @@
             <h2 class="section-topic">About Me</h2>
         </header>
 
-        <div id="box">
-            <figure>
-                <img src="assets/images/image2.jpg" alt="buddhika fernando">
+        <div class="box">
+            <figure class="about-fig">
+                <img class="about-img" src="assets/images/image2.jpg" alt="buddhika fernando">
             </figure>
 
-            <div id="details">
+            <div class="details">
                 <article>
-                    <h3>I'm Buddhika</h3>
-                    <h4>Full-stack Developer</h4>
-                    <p>A Fullstack Developer based in Colombo, Sri Lanka.
+                    <h3 id="details-name">I'm Buddhika</h3>
+                    <h4 id="details-work">Full-stack Developer</h4>
+                    <p id="details-desc">A Fullstack Developer based in Colombo, Sri Lanka.
                         I hold a diploma in Software Engineering and am currently
                         pursuing my undergraduate studies. I’m passionate about building
                         user-friendly applications and websites and enjoy working on both
                         frontend and backend development. My goal is to grow as a skilled
                         Fullstack Developer and create impactful digital solutions.</p>
                 </article>
-                <address>
-                    <div>
-                        <h5>E-mail</h5>
-                        <p><a href="mailto:buddhikafernando19@gmail.com">buddhikafernando19@gmail.com</a></p>
+                <address class="address">
+                    <div class="address-part">
+                        <h5 class="address-topic">E-mail</h5>
+                        <p><a  class="topic-description" href="mailto:buddhikafernando19@gmail.com">buddhikafernando19@gmail.com</a></p>
                     </div>
 
                     <h3 class="middle-line">|</h3>
 
-                    <div>
-                        <h5>Phone</h5>
-                        <p><a href="tel:+94764267067">+9476 426 7067</a></p>
+                    <div class="address-part">
+                        <h5 class="address-topic">Phone</h5>
+                        <p><a class="topic-description" href="tel:+94764267067">+9476 426 7067</a></p>
                     </div>
 
                     <h3 class="middle-line">|</h3>
 
-                    <div>
-                        <h5>Location</h5>
-                        <p>Moratuwa, Sri Lanka</p>
+                    <div class="address-part">
+                        <h5 class="address-topic">Location</h5>
+                        <p class="topic-description">Moratuwa, Sri Lanka</p>
                     </div>
                 </address>
             </div>
@@ -140,52 +137,52 @@
         <header>
             <h2 class="section-topic">Skills & Abilities</h2>
         </header>
-        <article>
-            <figure>
+        <article class="skills-grid">
+            <figure class="skills-card">
                 <img src="assets/images/reactJS.png" alt="ReactJS">
                 <figcaption>ReactJS</figcaption>
             </figure>
-            <figure>
+            <figure class="skills-card">
                 <img src="assets/images/javaScript.png" alt="JavaScript">
                 <figcaption>JavaScript</figcaption>
             </figure>
-            <figure>
+            <figure class="skills-card">
                 <img src="assets/images/angular.png">
                 <figcaption>Angular</figcaption>
             </figure>
-            <figure>
+            <figure class="skills-card">
                 <img src="assets/images/HTML.png">
                 <figcaption>HTML5</figcaption>
             </figure>
-            <figure>
+            <figure class="skills-card">
                 <img src="assets/images/css.png">
                 <figcaption>CSS3</figcaption>
             </figure>
-            <figure>
+            <figure class="skills-card">
                 <img src="assets/images/nodeJS.png">
                 <figcaption>NodeJS</figcaption>
             </figure>
-            <figure>
+            <figure class="skills-card">
                 <img src="assets/images/java.png" alt="Java" >
                 <figcaption>Java</figcaption>
             </figure>
-            <figure>
+            <figure class="skills-card">
                 <img src="assets/images/spring-boot.png" alt="Spring Boot">
                 <figcaption>Spring Boot</figcaption>
             </figure>
-            <figure>
+            <figure class="skills-card">
                 <img src="assets/images/mysql.png">
                 <figcaption>MySQL</figcaption>
             </figure>
-            <figure>
+            <figure class="skills-card">
                 <img src="assets/images/mongoDB.png">
                 <figcaption>mongoDB</figcaption>
-            </figure>
-            <figure>
+            </figure >
+            <figure class="skills-card">
                 <img src="assets/images/git.png">
                 <figcaption>git</figcaption>
             </figure>
-            <figure>
+            <figure class="skills-card">
                 <img src="assets/images/github.png">
                 <figcaption>gitHUB</figcaption>
             </figure>
@@ -193,16 +190,16 @@
     </section>
 
     <section id="Education">
-        <h2>Education</h2>
+        <h2 class="section-topic" >Education</h2>
         <div class="timeline-items">
 
             <!-- Education Item 1 -->
             <div class="timeline-item">
-                <div class="timeline-dot">
+                <div class="timeline-dot" id="dot-1">
                     <img src="assets/images/ijse.png">
                 </div>
-                <div class="timeline-date">2023 - 2023</div>
-                <div class="timeline-content">
+                <div class="timeline-date" id="date-1">2023 - 2023</div>
+                <div class="timeline-content" id="content-1">
                     <h3>Comprehensive Master Java Developer</h3>
                     <p>Institute of Software Engineering (IJSE)</p>
                 </div>
@@ -210,11 +207,11 @@
 
             <!-- Education Item 2 -->
             <div class="timeline-item">
-                <div class="timeline-dot">
+                <div class="timeline-dot" id="dot-2">
                     <img src="assets/images/ijse.png">
                 </div>
-                <div class="timeline-date">2024 - 2026</div>
-                <div class="timeline-content">
+                <div class="timeline-date" id="date-2">2024 - 2026</div>
+                <div class="timeline-content" id="content-2">
                     <h3>Graduate Diploma in Software Engineering</h3>
                     <p>Institute of Software Engineering (IJSE)</p>
                 </div>
@@ -226,197 +223,197 @@
     <!--projects-->
     <section id="Projects">
         <header>
-            <h2>Projects</h2>
+            <h2 class="section-topic" >Projects</h2>
         </header>
-        <div class="project-grid">
+        <div class="grid">
             <!-- Project 01 -->
-            <article class="project-card">
+            <article class="card">
                 <figure>
-                    <img src="assets/images/desktop%20image.jpeg" alt="Project 01 Screenshot">
-                    <figcaption>Tic-Tac-Toe Game</figcaption>
+                    <img class="card-img" src="assets/images/Tic%20tac%20toe.png" alt="Project 01 Screenshot">
+                    <figcaption class="caption">Tic-Tac-Toe Game</figcaption>
                 </figure>
-                <div class="project-actions">
-                    <button onclick="openModal('project01')">Details <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="card-actions">
+                    <button class="card-btn" onclick="openModal('project01')">Details <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </article>
 
             <!-- Project 02 -->
-            <article class="project-card">
+            <article class="card">
                 <figure>
-                    <img src="assets/images/desktop%20image.jpeg" alt="Project 02 Screenshot">
-                    <figcaption>Project 02</figcaption>
+                    <img class="card-img" src="assets/images/responder-student-reporting-management-system.png" alt="Project 02 Screenshot">
+                    <figcaption class="caption">Student Management System</figcaption>
                 </figure>
-                <div class="project-actions">
-                    <button onclick="openModal('project02')">Details <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="card-actions">
+                    <button class="card-btn" onclick="openModal('project02')">Details <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </article>
             <!-- Project 03 -->
-            <article class="project-card">
+            <article class="card">
                 <figure>
-                    <img src="assets/images/desktop%20image.jpeg" alt="Project 03 Screenshot">
-                    <figcaption>Project 03</figcaption>
+                    <img class="card-img" src="assets/images/import-export-services.jpg" alt="Project 03 Screenshot">
+                    <figcaption class="caption">Import & Export Company Management System</figcaption>
                 </figure>
-                <div class="project-actions">
-                    <button onclick="openModal('project03')">Details <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="card-actions">
+                    <button class="card-btn" onclick="openModal('project03')">Details <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </article>
 
             <!-- Project 04 -->
-            <article class="project-card">
+            <article class="card">
                 <figure>
-                    <img src="assets/images/desktop%20image.jpeg" alt="Project 04 Screenshot">
-                    <figcaption>Project 04</figcaption>
+                    <img class="card-img" src="assets/images/" alt="Project 03 Screenshot">
+                    <figcaption class="caption">project</figcaption>
                 </figure>
-                <div class="project-actions">
-                    <button onclick="openModal('project04')">Details <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="card-actions">
+                    <button class="card-btn" onclick="openModal('project03')">Details <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </article>
 
             <!-- Project 05 -->
-            <article class="project-card">
+            <article class="card">
                 <figure>
-                    <img src="assets/images/desktop%20image.jpeg" alt="Project 05 Screenshot">
-                    <figcaption>Project 05</figcaption>
+                    <img class="card-img" src="assets/images/" alt="Project 03 Screenshot">
+                    <figcaption class="caption">project</figcaption>
                 </figure>
-                <div class="project-actions">
-                    <button onclick="openModal('project05')">Details <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="card-actions">
+                    <button class="card-btn" onclick="openModal('project03')">Details <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </article>
 
             <!-- Project 06 -->
-            <article class="project-card">
+            <article class="card">
                 <figure>
-                    <img src="assets/images/desktop%20image.jpeg" alt="Project 06 Screenshot">
-                    <figcaption>Project 06</figcaption>
+                    <img class="card-img" src="assets/images/" alt="Project 03 Screenshot">
+                    <figcaption class="caption">project</figcaption>
                 </figure>
-                <div class="project-actions">
-                    <button onclick="openModal('project06')">Details <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="card-actions">
+                    <button class="card-btn" onclick="openModal('project03')">Details <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </article>
         </div>
 
-        <div id="button">
-            <button>View All</button>
-        </div>
+
+        <button class="view-all-button">View All</button>
+
 
     </section>
 
     <!--assignments-->
     <section id="Assignments">
         <header>
-            <h2>Assignments</h2>
+            <h2 class="section-topic" >Assignments</h2>
         </header>
-        <div class="assignment-grid">
+        <div class="grid">
             <!-- Assignment 01 -->
-            <article class="assignment-card">
+            <article class="card">
                 <figure>
-                    <img src="assets/images/assignment%20image.jpeg" alt="Assignment 01 Screenshot">
-                    <figcaption>Assignment 01</figcaption>
+                    <img class="card-img" src="assets/images/css-style.png" alt="Assignment 01 Screenshot">
+                    <figcaption class="caption">Css style</figcaption>
                 </figure>
-                <div class="assignment-actions">
-                    <button onclick="openModal('assignment01')">Details <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="card-actions">
+                    <button class="card-btn" onclick="openModal('assignment01')">Details <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </article>
 
             <!-- Assignment 02 -->
-            <article class="assignment-card">
+            <article class="card">
                 <figure>
-                    <img src="assets/images/assignment%20image.jpeg" alt="Assignment 02 Screenshot">
-                    <figcaption>Assignment 02</figcaption>
+                    <img class="card-img" src="assets/images/slider-animation.png" alt="Assignment 02 Screenshot">
+                    <figcaption class="caption">Animation Image Slider</figcaption>
                 </figure>
-                <div class="assignment-actions">
-                    <button onclick="openModal('assignment02')">Details <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="card-actions">
+                    <button class="card-btn" onclick="openModal('assignment02')">Details <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </article>
 
             <!-- Assignment 03 -->
-            <article class="assignment-card">
+            <article class="card">
                 <figure>
-                    <img src="assets/images/assignment%20image.jpeg" alt="Assignment 03 Screenshot">
-                    <figcaption>Assignment 03</figcaption>
+                    <img class="card-img" src="assets/images/car-animation.png" alt="Assignment 03 Screenshot">
+                    <figcaption class="caption">Animation Car</figcaption>
                 </figure>
-                <div class="assignment-actions">
-                    <button onclick="openModal('assignment03')">Details <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="card-actions">
+                    <button class="card-btn" onclick="openModal('assignment03')">Details <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </article>
+            <!-- Assignment 04 -->
+            <article class="card">
+                <figure>
+                    <img class="card-img" src="assets/images/assignment%20image.jpeg" alt="Assignment 01 Screenshot">
+                    <figcaption class="caption">Assignment 04</figcaption>
+                </figure>
+                <div class="card-actions">
+                    <button class="card-btn" onclick="openModal('assignment01')">Details <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </article>
 
-            <!-- Assignment 04 -->
-            <article class="assignment-card">
-                <figure>
-                    <img src="assets/images/assignment%20image.jpeg" alt="Assignment 04 Screenshot">
-                    <figcaption>Assignment 04</figcaption>
-                </figure>
-                <div class="assignment-actions">
-                    <button onclick="openModal('assignment04')">Details <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-            </article>
             <!-- Assignment 05 -->
-            <article class="assignment-card">
+            <article class="card">
                 <figure>
-                    <img src="assets/images/assignment%20image.jpeg" alt="Assignment 05 Screenshot">
-                    <figcaption>Assignment 05</figcaption>
+                    <img class="card-img" src="assets/images/assignment%20image.jpeg" alt="Assignment 02 Screenshot">
+                    <figcaption class="caption">Assignment 05</figcaption>
                 </figure>
-                <div class="assignment-actions">
-                    <button onclick="openModal('assignment05')">Details <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="card-actions">
+                    <button class="card-btn" onclick="openModal('assignment02')">Details <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </article>
 
             <!-- Assignment 06 -->
-            <article class="assignment-card">
+            <article class="card">
                 <figure>
-                    <img src="assets/images/assignment%20image.jpeg" alt="Assignment 06 Screenshot">
-                    <figcaption>Assignment 06</figcaption>
+                    <img class="card-img" src="assets/images/assignment%20image.jpeg" alt="Assignment 03 Screenshot">
+                    <figcaption class="caption">Assignment 06</figcaption>
                 </figure>
-                <div class="assignment-actions">
-                    <button onclick="openModal('assignment06')">Details <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="card-actions">
+                    <button class="card-btn" onclick="openModal('assignment03')">Details <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </article>
 
+
         </div>
 
-        <div id="view-all-button">
-            <button>View All </button>
-        </div>
+
+        <button class="view-all-button">View All </button>
+
 
     </section>
 
     <!--get in touch section-->
     <section id="Contact">
         <header>
-            <h2>Get in Touch</h2>
+            <h2 class="section-topic">Get in Touch</h2>
         </header>
         <div class="contact-container">
-            <figure>
-                <img src="assets/images/img-contact.png" alt="A person using a laptop and headset for communication" >
-            </figure>
+
+            <img src="assets/images/img-contact.png" alt="A person using a laptop and headset for communication" >
 
             <form action="#" method="post">
                 <div class="form-group">
-                    <input type="text" id="name" name="name" placeholder=" name" required>
+                    <input type="text" id="name" class="input-field" name="name" placeholder=" name" required>
                 </div>
                 <div class="form-group">
-                    <input type="tel" id="phone" name="phone" placeholder="phone" required>
+                    <input type="tel" id="phone" class="input-field" name="phone" placeholder="phone" required>
                 </div>
                 <div class="form-group">
-                    <input type="email" id="email" name="email" placeholder="email" required>
+                    <input type="email" id="email" class="input-field" name="email" placeholder="email" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" id="message" name="message" placeholder=" message" required style="height: 60px;">
+                    <input type="text" id="message" class="input-field" name="message" placeholder=" message" required style="height: 60px;">
                 </div>
                 <div class="form-group">
-                    <button type="submit">Send <i class="fa-solid fa-paper-plane" style="color: #ffffff;"></i></button>
+                    <button class="form-btn" type="submit">Send <i class="fa-solid fa-paper-plane" style="color: #ffffff;"></i></button>
                 </div>
             </form>
         </div>
     </section>
 </main>
 <footer>
-    <section>
-        <h4>Buddhika's Portfolio</h4>
-        <p>Thank you for visiting my personal portfolio website...</p>
-    </section>
-    <nav>
-        <h4>Quick Links</h4>
+    <div id="details">
+        <h4 class="header">Buddhika's Portfolio</h4>
+        <p id="description">Thank you for visiting my personal portfolio website...</p>
+    </div>
+    <nav id="quick-links">
+        <h4 class="header">Quick Links</h4>
         <ul>
             <li><a href="#Home">Home</a></li>
             <li><a href="#About">About</a></li>
@@ -426,22 +423,22 @@
             <li><a href="#Assignments">Assignments</a></li>
         </ul>
     </nav>
-    <address>
-        <h4>Contact Info</h4>
-        <div>
-            <img src="assets/images/phone.png" height="25px" width="25px">
+    <address id="contact-details">
+        <h4 class="header">Contact Info</h4>
+        <div class="contact-section">
+            <img class="img" src="assets/images/phone.png" >
             <p><a href="tel:+94764267067">+9476 426 7067</a></p>
         </div>
-        <div>
-            <img src="assets/images/email.png" height="25px" width="25px">
+        <div class="contact-section">
+            <img class="img" src="assets/images/email.png"  height="25px" width="25px">
             <p><a href="mailto:buddhikafernando19@gmail.com">buddhikafernando19@gmail.com</a></p>
         </div>
-        <div>
-            <img src="assets/images/location.png" height="25px" width="25px">
+        <div class="contact-section">
+            <img class="img" src="assets/images/location.png" height="25px" width="25px">
             <p>No. 131/3, Bodhi Mawatha, Koralawella, Moratuwa</p>
         </div>
     </address>
-    <aside>
+    <aside id="social-links">
         <a href="#"><i class="fab fa-linkedin"></i></a>
         <a href="#"><i class="fab fa-github"></i></a>
         <a href="#"><i class="fab fa-facebook"></i></a>
@@ -452,7 +449,7 @@
 </footer>
 
 
-
 <script src="assets/lib/fontawesome/js/all.min.js"></script>
+
 </body>
 </html>
